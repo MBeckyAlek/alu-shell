@@ -1,0 +1,6 @@
+#!/bin/bash
+ls -la
+echo -e "\nListing parent directory:"
+ls -la ..
+echo -e "\nListing /boot directory:"
+ls -la /boot
