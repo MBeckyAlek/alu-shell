@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#This script prints 'Hi' on the 9th iteration
+count=0
+word=''
+while ((count < 11 ))
+do
+	if (( count == 9)); then
+		word='Hi'
+		echo "$word"
+		((count++))
+	else
+		word='Best School'
+		echo "$word"
+		((count++))
+	fi
+done
